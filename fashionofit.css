@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.fortune-container {
+    background-color: #d4af37; /* Golden look */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Soft shadow for depth */
+}
+
+p {
+    font-size: 1.2em; /* Slightly larger text for paragraphs */
+    margin: 10px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5em; /* Bigger font size for button */
+    border: none;
+    border-radius: 10px;
+    background-color: #00897b; /* Button color */
+    color: #ffffff; /* Text color for button */
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #00796b; /* Darker shade on hover */
+}
+
+.fortune-display {
+    font-size: 2em; /* Larger font for fortune display */
+    margin-top: 20px;
+    color: #000; /* Black text for fortune */
+    font-weight: bold;
+    border: 2px solid #fff; /* White border for emphasis */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
